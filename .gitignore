@@ -223,3 +223,7 @@ __marimo__/
 *.parquet
 *.csv
 *.gpkg
+
+#Raw LSMS
+*.dta
+*.zip
