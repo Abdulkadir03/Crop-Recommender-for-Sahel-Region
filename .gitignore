@@ -229,4 +229,10 @@ __marimo__/
 *.zip
 *.csv
 
+.env
+token.json
+credentials.json
+llm_cache/
+*.dta
+*.zip
 data/raw/
