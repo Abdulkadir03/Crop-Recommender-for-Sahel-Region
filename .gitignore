@@ -236,3 +236,5 @@ llm_cache/
 *.dta
 *.zip
 data/raw/
+
+*.db
