@@ -1,10 +1,12 @@
+PRAGMA foreign_keys = ON;
+
 CREATE TABLE source (
     source_id TEXT PRIMARY KEY, title TEXT NOT NULL, publisher TEXT, year INTEGER,
-    url TEXT, licence TEXT, accessed DATE);
+    url TEXT, licence TEXT, accessed TEXT);
 
 CREATE TABLE crop (
     crop_id TEXT PRIMARY KEY, name_en TEXT, scientific_name TEXT, spam_code TEXT,
-    ecocrop_code TEXT, is_food_staple BOOLEAN);
+    ecocrop_code TEXT, is_food_staple INTEGER);
 
 CREATE TABLE food (
     food_id TEXT PRIMARY KEY, name_en TEXT, name_fr TEXT,
